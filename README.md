@@ -1,4 +1,4 @@
-Przedmiot DevOps 
+Przedmiot DevOps
 
 Marcin Marszałek
 
@@ -6,21 +6,25 @@ Marcin Marszałek
 
 Technologie wykorzystane do zrobienia zadania:
 
--Python 
+-Python
 
 -Flask
 
--Flask-SqlAlchemy 
+-Flask-SqlAlchemy
 
--PostgreSQL 
+-PostgreSQL
 
 -Docker
 
 -Docker Compose
 
+-Github Actions 
+
+-CodeQL
 
 
-Struktura projektu 
+
+Struktura projektu
 
 
 
@@ -28,17 +32,17 @@ Struktura projektu
 
 │   └───workflows
 
-├───app     -Kod aplikacji Flask 
+├───app     -Kod aplikacji Flask
 
 │   ├───migrations
 
 │   ├───seed
 
-│   ├───src   -Główny kod 
+│   ├───src   -Główny kod
 
 │   └───tests   -Testy
 
-├───docker      -Dockerfile 
+├───docker      -Dockerfile
 
 └───infra
 
